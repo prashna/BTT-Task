@@ -1,0 +1,129 @@
+body{
+  background: #3f406c;
+  padding-top: 30px;
+}
+header{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 30px;
+  background: #52557e;
+  color: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+}
+.logo{
+  float: left;
+  height: 30px;
+}
+.logo span{
+  font-size: 13px;
+  padding-left: 10px;
+}
+.subscribe{
+  float: right;
+  height: 30px;
+  background: #5a5f89;
+}
+.subscribe input {
+  height: 30px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 11px;
+  width: 240px;
+  color: #fff;
+  float: left;
+  padding: 5px;
+}
+.subscribe a {
+  float: left;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 11px;
+  background: #aa8ed9;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #fff;
+ opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #fff;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+ color:    #fff;
+}
+
+
+main{
+  padding: 50px;
+}
+
+.tile{
+  background: #5a5f89;
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 10px;
+  height: 420px;
+  overflow: hidden;
+}
+.tile .img-holder{
+  height: 185px;
+  overflow: hidden;
+}
+.tile .img-holder img{
+  width: 100%;
+  min-height: 100%;
+}
+.tile .content{
+  padding: 15px;
+}
+.tile .content .hint{
+  font-size: 10px;
+  color: #afb4dc;
+  padding-bottom: 10px;
+}
+.tile .content .title{
+  font-size: 25px;
+  font-weight: bold;
+  max-width: 400px;
+}
+.tile .content .about{
+  margin: 15px 0px;
+  height: 68px;
+  overflow: hidden;
+}
+.tile .content .details{
+  color: #afb4dc;
+  font-size: 10px;
+}
+.tile .content .details >span:last-child{
+  padding-left: 10px;
+}
+.tile .content .details >span span{
+  padding-right: 2px;
+}
+.tile .info{
+  padding: 50px;
+}
+.tile .info .title{
+  font-size: 35px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+.tile .info a{
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  background: #aa8ed9;
+  border-radius: 2px;
+}
